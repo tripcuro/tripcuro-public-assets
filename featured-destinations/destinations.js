@@ -9,7 +9,7 @@
  */
 const tripcuroFeaturedData = {
   "VN": {
-    "description": "Discover Vietnam, a destination known for lush landscapes, rich history, street food, and limestone karsts. Explore iconic highlights such as Halong Bay, Hoi An, and Hanoi.",
+    "description": "Discover Vietnam, a destination known for lush landscapes, rich history, street food, and limestone karsts. Explore iconic highlights such as Halong Bay, Hoi An, and Phong Nha caves.",
     "link": "travel-guide/vietnam.html"
   },
   "ID": {
