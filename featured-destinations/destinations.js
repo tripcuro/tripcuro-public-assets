@@ -73,5 +73,20 @@ const featuredDestinations = {
     "country": "New Zealand",
     "knownFor": "Dramatic landscapes, Maori culture, and adventure sports",
     "highlights": ["Queenstown", "Auckland", "Rotorua", "Milford Sound", "Wellington"]
-  }
+  },
+  "JP": {
+  "country": "Japan",
+  "knownFor": "Ancient temples, futuristic cities, world-renowned cuisine, and natural beauty",
+  "highlights": ["Tokyo", "Kyoto", "Osaka", "Mount Fuji", "Hokkaido"]
+},
+"KZ": {
+  "country": "Kazakhstan",
+  "knownFor": "Vast steppes, modern architecture, Silk Road history, and diverse landscapes",
+  "highlights": ["Almaty", "Astana (Nur-Sultan)", "Charyn Canyon", "Baikonur Cosmodrome", "Kaindy Lake"]
+},
+"AM": {
+  "country": "Armenia",
+  "knownFor": "Ancient monasteries, rich history, brandy, and dramatic mountain scenery",
+  "highlights": ["Yerevan", "Tatev Monastery", "Lake Sevan", "Garni Temple", "Dilijan National Park"]
+}
 };
