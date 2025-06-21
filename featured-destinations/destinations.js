@@ -1,71 +1,77 @@
-/**
- * Tripcuro Featured Destinations Data
- * This file provides data for the interactive map on the travel guide page.
- * It defines a global variable `tripcuroFeaturedData` which is an object
- * mapping country codes to their travel guide information.
- *
- * Generated on: 2024-05-21
- * Contains: 15 featured destinations
- */
-const tripcuroFeaturedData = {
+const featuredDestinations = {
   "VN": {
-    "description": "Discover Vietnam, a destination known for lush landscapes, rich history, street food, and limestone karsts. Explore iconic highlights such as Halong Bay, Hoi An, and Phong Nha caves.",
-    "link": "travel-guide/vietnam.html"
+    "country": "Vietnam",
+    "knownFor": "Lush landscapes, rich history, street food, and limestone karsts",
+    "highlights": ["Halong Bay", "Hoi An", "Hanoi", "Ho Chi Minh City", "Phong Nha Caves"]
   },
   "ID": {
-    "description": "Discover Indonesia, a destination known for volcanoes, tropical beaches, temples, and diverse islands. Explore iconic highlights such as Bali, Yogyakarta, and Komodo Island.",
-    "link": "travel-guide/indonesia.html"
+    "country": "Indonesia",
+    "knownFor": "Volcanoes, tropical beaches, temples, and diverse islands",
+    "highlights": ["Bali", "Yogyakarta", "Komodo Island", "Jakarta", "Mount Bromo"]
   },
   "KH": {
-    "description": "Discover Cambodia, a destination known for ancient temples, Khmer culture, and Mekong River scenery. Explore iconic highlights such as Angkor Wat, Phnom Penh, and Siem Reap.",
-    "link": "travel-guide/cambodia.html"
+    "country": "Cambodia",
+    "knownFor": "Ancient temples, Khmer culture, and Mekong River scenery",
+    "highlights": ["Angkor Wat", "Phnom Penh", "Siem Reap", "Kampot", "Koh Rong"]
   },
   "KE": {
-    "description": "Discover Kenya, a destination known for wildlife safaris, the Great Rift Valley, and Maasai culture. Explore iconic highlights such as Maasai Mara, Nairobi, and Lake Nakuru.",
-    "link": "travel-guide/kenya.html"
+    "country": "Kenya",
+    "knownFor": "Wildlife safaris, Great Rift Valley, and Maasai culture",
+    "highlights": ["Maasai Mara", "Nairobi", "Lake Nakuru", "Amboseli", "Diani Beach"]
   },
   "AE": {
-    "description": "Discover United Arab Emirates, a destination known for luxury shopping, ultramodern architecture, and desert adventures. Explore iconic highlights such as Dubai, Abu Dhabi, and Burj Khalifa.",
-    "link": "travel-guide/united-arab-emirates.html"
+    "country": "United Arab Emirates",
+    "knownFor": "Luxury shopping, ultramodern architecture, and desert adventures",
+    "highlights": ["Dubai", "Abu Dhabi", "Burj Khalifa", "Palm Jumeirah", "Al Ain"]
   },
   "OM": {
-    "description": "Discover Oman, a destination known for desert landscapes, traditional souks, and ancient forts. Explore iconic highlights such as Muscat, Wahiba Sands, and Nizwa.",
-    "link": "travel-guide/oman.html"
+    "country": "Oman",
+    "knownFor": "Desert landscapes, traditional souks, and ancient forts",
+    "highlights": ["Muscat", "Wahiba Sands", "Nizwa", "Jebel Akhdar", "Salalah"]
   },
   "FR": {
-    "description": "Discover France, a destination known for cuisine, fashion, art, and romantic cities. Explore iconic highlights such as Paris, Nice, and Loire Valley.",
-    "link": "travel-guide/france.html"
+    "country": "France",
+    "knownFor": "Cuisine, fashion, art, and romantic cities",
+    "highlights": ["Paris", "Nice", "Loire Valley", "Provence", "Mont Saint-Michel"]
   },
   "IT": {
-    "description": "Discover Italy, a destination known for Renaissance art, Roman ruins, and world-famous cuisine. Explore iconic highlights such as Rome, Venice, and Florence.",
-    "link": "travel-guide/italy.html"
+    "country": "Italy",
+    "knownFor": "Renaissance art, Roman ruins, and world-famous cuisine",
+    "highlights": ["Rome", "Venice", "Florence", "Tuscany", "Amalfi Coast"]
   },
   "ES": {
-    "description": "Discover Spain, a destination known for flamenco, architecture, beaches, and tapas. Explore iconic highlights such as Barcelona, Madrid, and Seville.",
-    "link": "travel-guide/spain.html"
+    "country": "Spain",
+    "knownFor": "Flamenco, architecture, beaches, and tapas",
+    "highlights": ["Barcelona", "Madrid", "Seville", "Granada", "Valencia"]
   },
   "TH": {
-    "description": "Discover Thailand, a destination known for street food, beaches, temples, and nightlife. Explore iconic highlights such as Bangkok, Phuket, and Chiang Mai.",
-    "link": "travel-guide/thailand.html"
+    "country": "Thailand",
+    "knownFor": "Street food, beaches, temples, and nightlife",
+    "highlights": ["Bangkok", "Phuket", "Chiang Mai", "Krabi", "Ayutthaya"]
   },
   "BT": {
-    "description": "Discover Bhutan, a destination known for Gross National Happiness, monasteries, and Himalayan views. Explore iconic highlights such as Paro, Thimphu, and Punakha.",
-    "link": "travel-guide/bhutan.html"
+    "country": "Bhutan",
+    "knownFor": "Gross National Happiness, monasteries, and Himalayan views",
+    "highlights": ["Paro", "Thimphu", "Punakha", "Tiger’s Nest Monastery", "Bumthang"]
   },
   "CY": {
-    "description": "Discover Cyprus, a destination known for Mediterranean beaches, ancient ruins, and island charm. Explore iconic highlights such as Nicosia, Paphos, and Limassol.",
-    "link": "travel-guide/cyprus.html"
+    "country": "Cyprus",
+    "knownFor": "Mediterranean beaches, ancient ruins, and island charm",
+    "highlights": ["Nicosia", "Paphos", "Limassol", "Ayia Napa", "Troodos Mountains"]
   },
   "TZ": {
-    "description": "Discover Tanzania, a destination known for Mount Kilimanjaro, Serengeti safaris, and Zanzibar beaches. Explore iconic highlights such as Serengeti, Ngorongoro Crater, and Zanzibar.",
-    "link": "travel-guide/tanzania.html"
+    "country": "Tanzania",
+    "knownFor": "Mount Kilimanjaro, Serengeti safaris, and Zanzibar beaches",
+    "highlights": ["Serengeti", "Ngorongoro Crater", "Zanzibar", "Arusha", "Mount Kilimanjaro"]
   },
   "AU": {
-    "description": "Discover Australia, a destination known for Outback, Great Barrier Reef, and laid-back lifestyle. Explore iconic highlights such as Sydney, Melbourne, and Great Barrier Reef.",
-    "link": "travel-guide/australia.html"
+    "country": "Australia",
+    "knownFor": "Outback, Great Barrier Reef, and laid-back lifestyle",
+    "highlights": ["Sydney", "Melbourne", "Great Barrier Reef", "Uluru", "Gold Coast"]
   },
   "NZ": {
-    "description": "Discover New Zealand, a destination known for dramatic landscapes, Maori culture, and adventure sports. Explore iconic highlights such as Queenstown, Auckland, and Rotorua.",
-    "link": "travel-guide/new-zealand.html"
+    "country": "New Zealand",
+    "knownFor": "Dramatic landscapes, Maori culture, and adventure sports",
+    "highlights": ["Queenstown", "Auckland", "Rotorua", "Milford Sound", "Wellington"]
   }
 };
