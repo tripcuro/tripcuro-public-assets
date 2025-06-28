@@ -475,6 +475,13 @@ window.allCountryData = {
     languages: ["English"],
     major_airport_cities: ["St. George's"]
   },
+  GL: {
+  name: "Greenland",
+  capital: "Nuuk",
+  currency: "Danish Krone (DKK)",
+  languages: ["Greenlandic", "Danish"],
+  major_airport_cities: ["Nuuk", "Kangerlussuaq", "Ilulissat"]
+},
   GT: {
     name: "Guatemala",
     capital: "Guatemala City",
